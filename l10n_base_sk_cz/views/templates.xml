@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="contact" inherit_id="base.contact">
+            <xpath expr="//address" position="inside">
+                <div t-if="object.company_registry and 'company_registry' in fields">
+                    <span>Company Registry: </span>
+                    <span class="o_force_ltr" itemprop="company_registry" t-esc="object.company_registry" />
+                </div>
+                <div t-if="object.tax_id and 'tax_id' in fields">
+                    <span>Tax ID: </span>
+                    <span class="o_force_ltr" itemprop="tax_id" t-esc="object.tax_id" />
+                </div>
+                <div t-if="'is_vat_payer' in fields">
+                    <span t-if="object.is_vat_payer == False" class="o_force_ltr" itemprop="is_vat_payer">
+                        The company is not VAT payer
+                    </span>
+                    <div t-if="object.is_vat_payer == True">
+                        <span class="o_force_ltr" itemprop="is_vat_payer">
+                            The company is VAT payer
+                        </span>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

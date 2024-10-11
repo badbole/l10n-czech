@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+            <record model="res.bank" id="bank_0710">
+            <field name="name">Česká národní banka</field>
+            <field name="code">0710</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Senovážné nám. 866, 11000</field>
+            <field name="phone">+420224412540</field>
+            <field name="bic">CNBACZPP</field>
+        </record>
+
+        <record model="res.bank" id="bank_3030">
+            <field name="name">Air Bank a.s.</field>
+            <field name="code">3030</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Evropská 2690/17, 16000</field>
+            <field name="email">info@airbank.cz</field>
+            <field name="phone">+420547134134</field>
+            <field name="bic">AIRACZPP</field>
+        </record>
+        <record model="res.bank" id="bank_5051">
+            <field name="name">AS Inbank, odštěpný závod</field>
+            <field name="code">5051</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Lazarská 13/8, 12000</field>
+            <field name="email">info@inbank.cz</field>
+            <field name="phone">+420226288988</field>
+        </record>
+        <record model="res.bank" id="bank_8231">
+            <field name="name">Bank Gutmann Aktiengesellschaft, pobočka Česká republika</field>
+            <field name="code">8231</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Václavské náměstí 832/19, 11000</field>
+            <field name="email">mail@gutmann.at</field>
+            <field name="phone">+420245004479</field>
+            <field name="bic">IRVTBEBB</field>
+        </record>
+        <record model="res.bank" id="bank_8250">
+            <field name="name">Bank of China (CEE) Ltd. Prague Branch</field>
+            <field name="code">8250</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Na Florenci 2116/15, 11000</field>
+            <field name="email">service.cz@bankofchina.com</field>
+            <field name="phone">+420225986666</field>
+            <field name="bic">BKCHCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_2250">
+            <field name="name">Banka CREDITAS a.s.</field>
+            <field name="code">2250</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Sokolovská 675/9, 18600</field>
+            <field name="email">info@creditas.cz</field>
+            <field name="phone">+420800888009</field>
+            <field name="bic">CTASCZ22</field>
+        </record>
+        <record model="res.bank" id="bank_2600">
+            <field name="name">Citibank Europe plc, organizační složka</field>
+            <field name="code">2600</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Bucharova 2641/14, 15800</field>
+            <field name="phone">+420233061111</field>
+            <field name="bic">CITICZPX</field>
+        </record>
+        <record model="res.bank" id="bank_6200">
+            <field name="name">COMMERZBANK Aktiengesellschaft, pobočka Praha</field>
+            <field name="code">6200</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Jugoslávská 934/1, 12000</field>
+            <field name="phone">+420221193111</field>
+            <field name="bic">COBACZPX</field>
+        </record>
+        <record model="res.bank" id="bank_8090">
+            <field name="name">Česká exportní banka, a.s.</field>
+            <field name="code">8090</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Vodičkova 701/34, 11000</field>
+            <field name="email">ceb@ceb.cz</field>
+            <field name="phone">+420222841100</field>
+            <field name="bic">CZEECZPP</field>
+        </record>
+        <record model="res.bank" id="bank_0800">
+            <field name="name">Česká spořitelna, a.s.</field>
+            <field name="code">0800</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Olbrachtova 1929/62, 14000</field>
+            <field name="email">csas@csas.cz</field>
+            <field name="phone">+420800207207</field>
+            <field name="bic">GIBACZPX</field>
+        </record>
+        <record model="res.bank" id="bank_0300">
+            <field name="name">Československá obchodní banka, a. s.</field>
+            <field name="code">0300</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Radlická 333/150, 15000</field>
+            <field name="phone">+420800300300</field>
+            <field name="bic">CEKOCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_7960">
+            <field name="name">ČSOB Stavební spořitelna, a.s.</field>
+            <field name="code">7960</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Radlická 333/150, 15000</field>
+            <field name="email">info@csobstavebni.cz</field>
+            <field name="phone">+420225225225</field>
+            <field name="bic">CEKOCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_7910">
+            <field name="name">Deutsche Bank Aktiengesellschaft Filiale Prag, organizační složka</field>
+            <field name="code">7910</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Jungmannova 745/24, 11000</field>
+            <field name="email">deutsche.bank@db.com</field>
+            <field name="phone">+420221191111</field>
+            <field name="bic">DEUTCZPX</field>
+        </record>
+        <record model="res.bank" id="bank_4141">
+            <field name="name">FCM BANK Praha, odštěpný závod</field>
+            <field name="code">4141</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Senovážné náměstí 1588/4, 11000</field>
+            <field name="email">czcare@fcmbank.com.mt</field>
+            <field name="phone">+420267220246</field>
+        </record>
+        <record model="res.bank" id="bank_2010">
+            <field name="name">Fio banka, a.s.</field>
+            <field name="code">2010</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">V celnici 1028/10, 11000</field>
+            <field name="email">fio@fio.cz</field>
+            <field name="phone">+420224346800</field>
+            <field name="bic">FIOBCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_8150">
+            <field name="name">HSBC Continental Europe, Czech Republic</field>
+            <field name="code">8150</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Na Florenci 2116/15, 11000</field>
+            <field name="email">customerservicecz@hsbc.com</field>
+            <field name="phone">+420225024555</field>
+            <field name="bic">MIDLCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_2100">
+            <field name="name">Hypoteční banka, a.s.</field>
+            <field name="code">2100</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Radlická 333/150, 15000</field>
+            <field name="email">info@hypotecnibanka.cz</field>
+            <field name="phone">224116333</field>
+        </record>
+        <record model="res.bank" id="bank_8265">
+            <field name="name">Industrial and Commercial Bank of China Limited, Prague Branch,
+                odštěpný závod</field>
+            <field name="code">8265</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Na strži 1702/65, 14000</field>
+            <field name="bic">ICBKLUL</field>
+        </record>
+        <record model="res.bank" id="bank_3500">
+            <field name="name">ING Bank N.V.</field>
+            <field name="code">3500</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Českomoravská 2420/15, 19000</field>
+            <field name="email">klient@ing.cz</field>
+            <field name="phone">800159159</field>
+            <field name="bic">INGBCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_5800">
+            <field name="name">J&amp;T BANKA, a.s.</field>
+            <field name="code">5800</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Sokolovská 700/113a, 18600</field>
+            <field name="email">jtbank@jtbank.cz</field>
+            <field name="phone">+420800707606</field>
+            <field name="bic">JTBPCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_0100">
+            <field name="name">Komerční banka, a.s.</field>
+            <field name="code">0100</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Na příkopě 969/33, 11000</field>
+            <field name="email">mojebanka@kb.cz</field>
+            <field name="phone">+420800521521</field>
+            <field name="bic">KOMBCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_4000">
+            <field name="name">Max banka a.s.</field>
+            <field name="code">4000</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Na strži 2097/63, 14000</field>
+            <field name="email">info@maxbanka.eu</field>
+            <field name="phone">+420800700800</field>
+            <field name="bic">EXPNCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_6210">
+            <field name="name">mBank S.A., organizační složka</field>
+            <field name="code">6210</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Pernerova 691/42, 18600</field>
+            <field name="email">kontakt@mbank.cz</field>
+            <field name="phone">+420222111999</field>
+            <field name="bic">BREXCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_7990">
+            <field name="name">Modrá pyramida stavební spořitelna, a.s.</field>
+            <field name="code">7990</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Bělehradská 222/128, 12000</field>
+            <field name="email">info@modrapyramida.cz</field>
+            <field name="phone">+420210220230</field>
+        </record>
+        <record model="res.bank" id="bank_0600">
+            <field name="name">MONETA Money Bank, a.s.</field>
+            <field name="code">0600</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Vyskočilova 1442/1b, 14000</field>
+            <field name="phone">+420224443636</field>
+            <field name="bic">AGBACZPP</field>
+        </record>
+        <record model="res.bank" id="bank_7970">
+            <field name="name">MONETA Stavební Spořitelna, a.s.</field>
+            <field name="code">7970</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Vyskočilova 1442/1b, 14000</field>
+            <field name="phone">+420224443636</field>
+        </record>
+        <record model="res.bank" id="bank_4300">
+            <field name="name">Národní rozvojová banka, a.s.</field>
+            <field name="code">4300</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Jeruzalémská 964/4, 11000</field>
+            <field name="email">info@nrb.cz</field>
+            <field name="phone">+420255721111</field>
+            <field name="bic">CMZRCZP1</field>
+        </record>
+        <record model="res.bank" id="bank_8040">
+            <field name="name">Oberbank AG pobočka Česká republika</field>
+            <field name="code">8040</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">náměstí I. P. Pavlova 1789/5, 12000</field>
+            <field name="email">praha@oberbank.cz</field>
+            <field name="phone">224190100</field>
+            <field name="bic">OBKLCZ2X</field>
+        </record>
+        <record model="res.bank" id="bank_3060">
+            <field name="name">PKO BP S.A., Czech Branch</field>
+            <field name="code">3060</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Klimentská 1216/46, 11000</field>
+            <field name="email">praha@pkobp.pl</field>
+            <field name="phone">+420234129830</field>
+            <field name="bic">BPKOCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_6000">
+            <field name="name">PPF banka a.s.</field>
+            <field name="code">6000</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Evropská 2690/17, 16000</field>
+            <field name="email">info@ppfbanka.cz</field>
+            <field name="phone">+420222244255</field>
+            <field name="bic">PMBPCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_7950">
+            <field name="name">Raiffeisen stavební spořitelna a.s.</field>
+            <field name="code">7950</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Hvězdova 1716/2b, 14000</field>
+            <field name="email">rsts@rsts.cz</field>
+            <field name="phone">+420800112211</field>
+        </record>
+        <record model="res.bank" id="bank_5500">
+            <field name="name">Raiffeisenbank a.s.</field>
+            <field name="code">5500</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Hvězdova 1716/2b, 14000</field>
+            <field name="email">info@rb.cz</field>
+            <field name="phone">+420412440000</field>
+            <field name="bic">RZBCCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_8211">
+            <field name="name">Saxo Bank A/S, organizační složka</field>
+            <field name="code">8211</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Na Poříčí 1079/3a, 11000</field>
+            <field name="email">psprague@saxobank.com</field>
+            <field name="phone">+420226201580</field>
+            <field name="bic">SAXPCZP1</field>
+        </record>
+        <record model="res.bank" id="bank_8241">
+            <field name="name">SMBC Bank EU AG Prague Branch</field>
+            <field name="code">8241</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Pobřežní 620/3, 18600</field>
+            <field name="phone">+420295565800</field>
+        </record>
+        <record model="res.bank" id="bank_8060">
+            <field name="name">Stavební spořitelna České spořitelny, a.s.</field>
+            <field name="code">8060</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Antala Staška 1292/32, 14000</field>
+            <field name="email">burinka@burinka.cz</field>
+            <field name="phone">+420800120120</field>
+            <field name="bic">GIBACZPX</field>
+        </record>
+        <record model="res.bank" id="bank_2070">
+            <field name="name">TRINITY BANK a.s.</field>
+            <field name="code">2070</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Senovážné náměstí 1375/19, 11000</field>
+            <field name="email">info@trinitybank.cz</field>
+            <field name="phone">+420800678678</field>
+            <field name="bic">MPUBCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_2700">
+            <field name="name">UniCredit Bank Czech Republic and Slovakia, a.s.</field>
+            <field name="code">2700</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Želetavská 1525/1, 14000</field>
+            <field name="email">info@unicreditgroup.cz</field>
+            <field name="phone">+420221210031</field>
+            <field name="bic">BACXCZPP</field>
+        </record>
+        <record model="res.bank" id="bank_8030">
+            <field name="name">Volksbank Raiffeisenbank Nordoberpfalz eG pobočka Cheb</field>
+            <field name="code">8030</field>
+            <field name="city">Cheb</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Kubelíkova 602/4, 35002</field>
+            <field name="email">info@vr-nopf.cz</field>
+            <field name="phone">+420354524511</field>
+            <field name="bic">GENOCZ21</field>
+        </record>
+        <record model="res.bank" id="bank_6700">
+            <field name="name">Všeobecná úverová banka a.s., pobočka Praha; zkráceně: VUB, a.s.,
+                pobočka Praha</field>
+            <field name="code">6700</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Purkyňova 2121/3, 11000</field>
+            <field name="email">infovub@vub.cz</field>
+            <field name="phone">+420221865111</field>
+            <field name="bic">SUBACZPP</field>
+        </record>
+        <record model="res.bank" id="bank_3040">
+            <field name="name">Western Union International Bank GmbH, organizační složka</field>
+            <field name="code">3040</field>
+            <field name="city">Praha</field>
+            <field name="country" ref="base.cz" />
+            <field name="street">Dušní 906/8, 11000</field>
+            <field name="email">kontakt@westernunion.com</field>
+            <field name="phone">+420251001113</field>
+            <field name="bic">WUFSUS55XXX</field>
+        </record>
+    </data>
+</odoo>

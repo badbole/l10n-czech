@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_bank_partner_form_inherit" model="ir.ui.view">
+            <field name="name">res.partner.bank.form.localization.inherit</field>
+            <field name="model">res.partner.bank</field>
+            <field name="inherit_id" ref="base.view_partner_bank_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='acc_number']" position="after">
+                    <field name="acc_legacy_number"/>
+                    <field name="account_legacy_starting_number"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

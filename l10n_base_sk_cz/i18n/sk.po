@@ -1,0 +1,218 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_base_sk_cz
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-28 12:09+0000\n"
+"PO-Revision-Date: 2023-08-28 12:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_base_sk_cz
+#: model_terms:ir.ui.view,arch_db:l10n_base_sk_cz.view_partner_form_inherit
+msgid "), are you sure to create a new one?"
+msgstr "), naozaj si želáte vytvoriť nový?"
+
+#. module: l10n_base_sk_cz
+#: model_terms:ir.ui.view,arch_db:l10n_base_sk_cz.contact
+msgid ""
+"<span class=\"o_force_ltr\" itemprop=\"is_vat_payer\">\n"
+"                            The company is VAT payer\n"
+"                        </span>"
+msgstr ""
+"<span class=\"o_force_ltr\" itemprop=\"is_vat_payer\">\n"
+"                            Spoločnosť je platcom DPH\n"
+"                        </span>"
+
+#. module: l10n_base_sk_cz
+#: model_terms:ir.ui.view,arch_db:l10n_base_sk_cz.contact
+msgid "<span>Company Registry: </span>"
+msgstr "<span>IČO: </span>"
+
+#. module: l10n_base_sk_cz
+#: model_terms:ir.ui.view,arch_db:l10n_base_sk_cz.contact
+msgid "<span>Tax ID: </span>"
+msgstr "<span>DIČ: </span>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid ""
+"A partner with the same <span><span class=\"o_vat_label\">Company "
+"Registry</span></span> already exists ("
+msgstr ""
+"Spoločnosť s rovnakým <span><span class=\"o_vat_label\">IČO"
+"</span></span> už existuje ("
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_account_setup_bank_manual_config__acc_legacy_number
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_partner_bank__acc_legacy_number
+msgid "Account number in legacy format"
+msgstr "Číslo účtu v pôvodnom formáte"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_account_setup_bank_manual_config__account_legacy_starting_number
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_partner_bank__account_legacy_starting_number
+msgid "Account starting number"
+msgstr "Počiatočné číslo účtu"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model,name:l10n_base_sk_cz.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "Bankové Účty"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model,name:l10n_base_sk_cz.model_res_company
+msgid "Companies"
+msgstr "Spoločnosti"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_company__company_registry
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_partner__company_registry
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_users__company_registry
+msgid "Company Registry"
+msgstr "IČO"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_bank_statement_line__constant_symbol
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_move__constant_symbol
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_payment__constant_symbol
+msgid "Constant Symbol"
+msgstr "Konštantný symbol"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model,name:l10n_base_sk_cz.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_company__is_vat_payer
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_partner__is_vat_payer
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_users__is_vat_payer
+msgid "Is VAT Payer"
+msgstr "Platca DPH"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model,name:l10n_base_sk_cz.model_account_move
+msgid "Journal Entry"
+msgstr "Záznam v Denníku"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_setup_bank_manual_config__acc_legacy_number
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_partner_bank__acc_legacy_number
+msgid "Legacy Account Number"
+msgstr "Číslo účtu v pôvodnom formáte"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_setup_bank_manual_config__account_legacy_starting_number
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_partner_bank__account_legacy_starting_number
+msgid "Legacy Account Starting Number"
+msgstr "Predčíslie účtu v pôvodnom formáte"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_company__localization_country
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_partner__localization_country
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_users__localization_country
+msgid "Localization Country Name"
+msgstr "Krajina lokalizácie"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_partner__same_company_registry_partner_id
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_users__same_company_registry_partner_id
+msgid "Partner with same Company Registry"
+msgstr "Spoločnosť s rovnakým IČO"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_company__registration_info
+msgid "Registration Information"
+msgstr "Registračné Informácie"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_bank_statement_line__specific_symbol
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_move__specific_symbol
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_payment__specific_symbol
+msgid "Specific Symbol"
+msgstr "Špecifický Symbol"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_company__tax_id
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_partner__tax_id
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_users__tax_id
+msgid "Local Tax Identification Number"
+msgstr "DIČ"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_company__tax_id
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_partner__tax_id
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_users__tax_id
+msgid "Local Tax Identification Number of the company."
+msgstr "DIČ"
+
+#. module: l10n_base_sk_cz
+#: model_terms:ir.ui.view,arch_db:l10n_base_sk_cz.contact
+msgid "The company is not VAT payer"
+msgstr "Spoločnosť nie je platcom DPH"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_company__company_registry
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_partner__company_registry
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_users__company_registry
+msgid ""
+"The registry number of the company. Use it if it is different from the Tax "
+"ID. It must be unique across all partners of a same country"
+msgstr ""
+"IČO. Musí byť "
+"jedinečné pre všetkých partnerov v rovnakej krajine."
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_bank_statement_line__variable_symbol
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_move__variable_symbol
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_payment__variable_symbol
+msgid "Variable Symbol"
+msgstr "Variabilný Symbol"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_partner__vocative
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_res_users__vocative
+msgid "Vocative"
+msgstr "Oslovenie"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_partner__vocative
+#: model:ir.model.fields,help:l10n_base_sk_cz.field_res_users__vocative
+msgid "Vocative of the partner"
+msgstr "Oslovenie partnera"
+
+# FOLLOWING IS AN ATTEMPT TO FIX BAD ODOO TRANSLATION OF VAT TO DIČ WHILE THE CORRECT TERM IS IČ DPH!!!
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid ""
+"A partner with the same <span><span class=\"o_vat_label\">Tax "
+"ID</span></span> already exists ("
+msgstr ""
+"Spoločnosť s rovnakým <span><span class=\"o_vat_label\">IČ DPH</span></span> "
+"už existuje ("
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__same_vat_partner_id
+#: model:ir.model.fields,field_description:base.field_res_users__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr "Spoločnosť s rovnakým IČ DPH"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__vat
+#: model:ir.model.fields,field_description:base.field_res_company__vat
+#: model:ir.model.fields,field_description:base.field_res_users__vat
+msgid "Tax ID"
+msgstr "IČ DPH"
+
+#. module: l10n_base_sk_cz
+#: model:ir.model.fields,field_description:l10n_base_sk_cz.field_account_move__taxable_event_date
+msgid "Taxable Event Date"
+msgstr "Dátum zdaniteľného plnenia"

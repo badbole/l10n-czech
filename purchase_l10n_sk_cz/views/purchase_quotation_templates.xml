@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="report_purchasequotation_document" inherit_id="purchase.report_purchasequotation_document">
+            <xpath expr="//t[@t-set='address']" position="replace">
+                <t t-set="address">
+                    <div t-field="o.partner_id" t-options='{"widget": "contact", "fields": ["tax_id", "vat", "company_registry", "address", "name", "phone"], "no_marker": True, "phone_icons": True}'/>
+                </t>
+            </xpath>
+            <xpath expr="//p[@t-field='o.notes']" position="after">
+                <div t-if="o.company_id.registration_info" class="row" name="notes">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mt32">
+                                <strong>Note</strong>
+                                <hr />
+                                <t t-esc="o.company_id.registration_info" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

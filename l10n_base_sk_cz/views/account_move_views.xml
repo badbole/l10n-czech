@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_account_move_inherit" model="ir.ui.view">
+            <field name="name">account.move.form.inherit</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_bank_id']" position="after">
+                    <field name="taxable_event_date"/>
+                    <field name="variable_symbol"/>
+                    <field name="constant_symbol"/>
+                    <field name="specific_symbol"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_invoice_tree" model="ir.ui.view">
+            <field name="name">account.invoice.tree</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_invoice_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='to_check']" position="after">
+                    <field name="taxable_event_date" optional="hide"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
